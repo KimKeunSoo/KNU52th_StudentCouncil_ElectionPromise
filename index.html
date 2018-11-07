@@ -108,7 +108,14 @@
         .toggle-xxs__toggled {
           display: none;
         }
-
+        @media (max-width: 320px) {
+        .toggle-xxs__toggled {
+          display: inline;
+        }
+        .toggle-xxs__default {
+          display: none;
+        }
+        }
         #scaledown {
           position: absolute;
           top: 0;
